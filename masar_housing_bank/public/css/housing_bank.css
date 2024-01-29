@@ -1,0 +1,92 @@
+@page {
+    size: A4;
+    margin: 0
+}
+@media print {
+        .body{
+                width: 210mm 
+            }
+        }
+
+
+body {
+    align-items: center;
+    align-content: center;
+}
+
+table.table1 {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table.table1 td,
+th {
+    border-color: black;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+table.table2 {
+    border-collapse: collapse;
+
+}
+
+table.table2 td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 0px;
+    height: 5px;
+}
+
+table.table3 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.table3 td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.vertical {
+    border-left: 6px grey;
+    height: 50px;
+    left: 50%;
+}
+
+.Inline dt,
+dd {
+
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    line-height: 14px;
+    display: inline;
+}
+
+
+.tm dt {
+
+    padding-left: 20px;
+    text-align: right;
+    width: 100px;
+}
+
+ul.url1 {
+    position: relative;
+    list-style: none;
+}
+
+url.ul1 li::before {
+    content: '▶';
+    position: absolute;
+    left: 20;
+    color: green;
+}

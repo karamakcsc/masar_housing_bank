@@ -10,11 +10,11 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/masar_housing_bank/css/masar_housing_bank.css"
+# app_include_css = "/assets/masar_housing_bank/css/housing_bank.css"
 # app_include_js = "/assets/masar_housing_bank/js/masar_housing_bank.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/masar_housing_bank/css/masar_housing_bank.css"
+# web_include_css = "/assets/masar_housing_bank/css/housing_bank.css"
 # web_include_js = "/assets/masar_housing_bank/js/masar_housing_bank.js"
 
 # include custom scss in every website theme (without file extension ".scss")
