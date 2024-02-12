@@ -1,0 +1,349 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-11 09:48:08.241322",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "amended_from",
+  "posting_date",
+  "text_editor_sdhx",
+  "end_of_share_price",
+  "column_break_lykh",
+  "price_of_date",
+  "price_of",
+  "earnings",
+  "column_break_lecf",
+  "annual_earnings",
+  "section_break_ptwq",
+  "column_break_ukya",
+  "initated_coverage",
+  "column_break_rsip",
+  "text_editor_smta",
+  "column_break_xtqc",
+  "target_price",
+  "section_break_ngor",
+  "previous_rating",
+  "column_break_yqkw",
+  "week_price_range",
+  "column_break_ojwi",
+  "data_vvxy",
+  "column_break_lbdj",
+  "data_rkgz",
+  "column_break_vdyj",
+  "data_hnww",
+  "section_break_tnps",
+  "founded",
+  "column_break_renr",
+  "shares_outstanding",
+  "column_break_eeqy",
+  "employees",
+  "column_break_aqwi",
+  "sector",
+  "column_break_uwzb",
+  "industry",
+  "section_break_yret",
+  "text_editor_yvyp",
+  "section_break_dsph",
+  "recommendation_summary",
+  "section_break_wunp",
+  "major_risk_and_rewards",
+  "section_break_jbys",
+  "peer_group_comparison",
+  "comparison_table",
+  "section_break_qvhx",
+  "past_performance",
+  "table_tjhz",
+  "section_break_eiju",
+  "relative_valuation_table",
+  "table_zqpx",
+  "text_editor_axbc",
+  "earnings_strength_is_positive",
+  "financial_stability_is_positive"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "HBTF Report",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "text_editor_sdhx",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "target_price",
+   "fieldtype": "Data",
+   "label": "Target Price"
+  },
+  {
+   "fieldname": "column_break_lykh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lecf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ptwq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ukya",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rsip",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "text_editor_smta",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "column_break_xtqc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ngor",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "previous_rating",
+   "fieldtype": "Data",
+   "label": "Previous Rating"
+  },
+  {
+   "fieldname": "column_break_yqkw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ojwi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_vvxy",
+   "fieldtype": "Data",
+   "label": "Market Capitilization"
+  },
+  {
+   "fieldname": "column_break_lbdj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_rkgz",
+   "fieldtype": "Data",
+   "label": "Dividend Yield"
+  },
+  {
+   "fieldname": "column_break_vdyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_hnww",
+   "fieldtype": "Data",
+   "label": "Dividends / Share"
+  },
+  {
+   "fieldname": "section_break_tnps",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "founded",
+   "fieldtype": "Date",
+   "label": "Founded"
+  },
+  {
+   "fieldname": "column_break_renr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shares_outstanding",
+   "fieldtype": "Data",
+   "label": "Shares Outstanding"
+  },
+  {
+   "fieldname": "column_break_eeqy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employees",
+   "fieldtype": "Data",
+   "label": "Employees"
+  },
+  {
+   "fieldname": "column_break_aqwi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Data",
+   "label": "Sector"
+  },
+  {
+   "fieldname": "column_break_uwzb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Data",
+   "label": "Industry"
+  },
+  {
+   "fieldname": "section_break_yret",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "text_editor_yvyp",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "section_break_dsph",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "recommendation_summary",
+   "fieldtype": "Text Editor",
+   "label": "Recommendation Summary"
+  },
+  {
+   "fieldname": "section_break_wunp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "major_risk_and_rewards",
+   "fieldtype": "Text Editor",
+   "label": "Major Risk and Rewards"
+  },
+  {
+   "fieldname": "section_break_jbys",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "peer_group_comparison",
+   "fieldtype": "Heading",
+   "label": "Peer Group Comparison"
+  },
+  {
+   "fieldname": "comparison_table",
+   "fieldtype": "Table",
+   "label": "Comparison Table",
+   "options": "Comparison Table"
+  },
+  {
+   "fieldname": "section_break_qvhx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "past_performance",
+   "fieldtype": "Heading",
+   "label": "Past Performance"
+  },
+  {
+   "fieldname": "table_tjhz",
+   "fieldtype": "Table",
+   "options": "Past Performance Table"
+  },
+  {
+   "fieldname": "section_break_eiju",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "relative_valuation_table",
+   "fieldtype": "Heading",
+   "label": "Relative Valuation Table"
+  },
+  {
+   "fieldname": "table_zqpx",
+   "fieldtype": "Table",
+   "options": "Relative Valuation Table"
+  },
+  {
+   "fieldname": "text_editor_axbc",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "end_of_share_price",
+   "fieldtype": "Date",
+   "label": "End of Share Price"
+  },
+  {
+   "fieldname": "earnings",
+   "fieldtype": "Date",
+   "label": "Earnings"
+  },
+  {
+   "fieldname": "annual_earnings",
+   "fieldtype": "Date",
+   "label": "Annual Earnings"
+  },
+  {
+   "fieldname": "initated_coverage",
+   "fieldtype": "Date",
+   "label": "Initated Coverage"
+  },
+  {
+   "fieldname": "week_price_range",
+   "fieldtype": "Data",
+   "label": "52 Week Price Range"
+  },
+  {
+   "fieldname": "price_of",
+   "fieldtype": "Data",
+   "label": "price "
+  },
+  {
+   "fieldname": "price_of_date",
+   "fieldtype": "Data",
+   "label": "price of "
+  },
+  {
+   "fieldname": "earnings_strength_is_positive",
+   "fieldtype": "Table",
+   "label": "Earnings Strength Is POSITIVE",
+   "options": "Earnings Strength is POSITIVE"
+  },
+  {
+   "fieldname": "financial_stability_is_positive",
+   "fieldtype": "Table",
+   "label": "Financial Stability is POSITIVE",
+   "options": "Financial Stability is POSITIVE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-02-12 14:37:14.712212",
+ "modified_by": "Administrator",
+ "module": "Masar Housing Bank",
+ "name": "HBTF Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

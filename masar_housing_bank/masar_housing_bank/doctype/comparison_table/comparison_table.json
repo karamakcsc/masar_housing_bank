@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-11 11:08:01.052274",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "abbreviation",
+  "column_break_uexe",
+  "company_name",
+  "column_break_ujpx",
+  "price",
+  "column_break_fksm",
+  "mkt_cap",
+  "column_break_fxoi",
+  "eps",
+  "column_break_knjh",
+  "pe",
+  "column_break_wpzg",
+  "pb",
+  "column_break_euxb",
+  "yield",
+  "column_break_zuxv",
+  "payout",
+  "column_break_vzbg",
+  "npm",
+  "column_break_yyha",
+  "debtequity"
+ ],
+ "fields": [
+  {
+   "fieldname": "abbreviation",
+   "fieldtype": "Data",
+   "label": "abbreviation"
+  },
+  {
+   "fieldname": "column_break_uexe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "column_break_ujpx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Data",
+   "label": "Price"
+  },
+  {
+   "fieldname": "column_break_fksm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mkt_cap",
+   "fieldtype": "Data",
+   "label": "Mkt Cap"
+  },
+  {
+   "fieldname": "column_break_fxoi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "eps",
+   "fieldtype": "Data",
+   "label": "EPS"
+  },
+  {
+   "fieldname": "column_break_knjh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pe",
+   "fieldtype": "Data",
+   "label": "P/E"
+  },
+  {
+   "fieldname": "column_break_wpzg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pb",
+   "fieldtype": "Data",
+   "label": "P/B"
+  },
+  {
+   "fieldname": "column_break_euxb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "yield",
+   "fieldtype": "Data",
+   "label": "Yield"
+  },
+  {
+   "fieldname": "column_break_zuxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payout",
+   "fieldtype": "Data",
+   "label": "Payout"
+  },
+  {
+   "fieldname": "column_break_vzbg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "npm",
+   "fieldtype": "Data",
+   "label": "NPM"
+  },
+  {
+   "fieldname": "column_break_yyha",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debtequity",
+   "fieldtype": "Data",
+   "label": "Debt/Equity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-11 11:12:27.217828",
+ "modified_by": "Administrator",
+ "module": "Masar Housing Bank",
+ "name": "Comparison Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

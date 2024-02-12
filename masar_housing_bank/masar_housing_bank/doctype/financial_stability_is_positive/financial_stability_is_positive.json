@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-12 14:31:09.102572",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assets",
+  "column_break_xgpq",
+  "equity",
+  "column_break_lyxn",
+  "assetseq",
+  "column_break_tzug",
+  "loansdeposits",
+  "column_break_skxn",
+  "bad_loans"
+ ],
+ "fields": [
+  {
+   "fieldname": "assets",
+   "fieldtype": "Data",
+   "label": "Assets"
+  },
+  {
+   "fieldname": "column_break_xgpq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "equity",
+   "fieldtype": "Data",
+   "label": "Equity"
+  },
+  {
+   "fieldname": "column_break_lyxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assetseq",
+   "fieldtype": "Data",
+   "label": "Assets/Eq.\t"
+  },
+  {
+   "fieldname": "column_break_tzug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "loansdeposits",
+   "fieldtype": "Data",
+   "label": "Loans/Deposits\t"
+  },
+  {
+   "fieldname": "column_break_skxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bad_loans",
+   "fieldtype": "Data",
+   "label": "Bad Loans"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-12 14:36:21.800459",
+ "modified_by": "Administrator",
+ "module": "Masar Housing Bank",
+ "name": "Financial Stability is POSITIVE",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

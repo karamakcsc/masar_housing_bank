@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-12 14:01:19.971625",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "revenues",
+  "column_break_qidc",
+  "net_income",
+  "column_break_qlat",
+  "roe",
+  "column_break_ngne",
+  "npm"
+ ],
+ "fields": [
+  {
+   "fieldname": "revenues",
+   "fieldtype": "Data",
+   "label": "Revenues"
+  },
+  {
+   "fieldname": "column_break_qidc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_income",
+   "fieldtype": "Data",
+   "label": "Net Income"
+  },
+  {
+   "fieldname": "column_break_qlat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "roe",
+   "fieldtype": "Data",
+   "label": "ROE"
+  },
+  {
+   "fieldname": "column_break_ngne",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "npm",
+   "fieldtype": "Data",
+   "label": "NPM"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-12 14:04:09.721365",
+ "modified_by": "Administrator",
+ "module": "Masar Housing Bank",
+ "name": "Earnings Strength is POSITIVE",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

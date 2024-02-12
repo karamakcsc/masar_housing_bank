@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-11 11:29:37.607886",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "last_price1",
+  "column_break_zefa",
+  "market_cap1",
+  "column_break_wykp",
+  "eps1",
+  "column_break_tyug",
+  "pe1",
+  "column_break_lbjy",
+  "book",
+  "column_break_oxbc",
+  "pb1",
+  "column_break_eocm",
+  "dps1",
+  "column_break_cwlp",
+  "div_yield1"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_zefa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wykp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tyug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lbjy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "book",
+   "fieldtype": "Data",
+   "label": "Book"
+  },
+  {
+   "fieldname": "column_break_oxbc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_eocm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cwlp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "eps1",
+   "fieldtype": "Data",
+   "label": "EPS"
+  },
+  {
+   "fieldname": "pe1",
+   "fieldtype": "Data",
+   "label": "\tP/E"
+  },
+  {
+   "fieldname": "pb1",
+   "fieldtype": "Data",
+   "label": "P/B"
+  },
+  {
+   "fieldname": "dps1",
+   "fieldtype": "Data",
+   "label": "DPS"
+  },
+  {
+   "fieldname": "div_yield1",
+   "fieldtype": "Data",
+   "label": "Div. Yield"
+  },
+  {
+   "fieldname": "last_price1",
+   "fieldtype": "Data",
+   "label": "Last Price"
+  },
+  {
+   "fieldname": "market_cap1",
+   "fieldtype": "Data",
+   "label": "Market Cap"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-12 13:56:45.039259",
+ "modified_by": "Administrator",
+ "module": "Masar Housing Bank",
+ "name": "Relative Valuation Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
